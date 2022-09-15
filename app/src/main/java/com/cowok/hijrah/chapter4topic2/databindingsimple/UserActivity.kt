@@ -1,4 +1,4 @@
-package com.cowok.hijrah.chapter4topic2.data_binding_simple
+package com.cowok.hijrah.chapter4topic2.databindingsimple
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

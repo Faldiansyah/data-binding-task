@@ -16,8 +16,8 @@ class StudentActivity : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_student)
 
         var listStudent = arrayListOf(
-            DataStudent("Dwika", "Y7665", R.drawable.quran),
-            DataStudent("Faldi", "J8809", R.drawable.quran_dua)
+            DataStudent("Dwika", "Y7665", R.drawable.ic_launcher_foreground),
+            DataStudent("Faldi", "J8809", R.drawable.ic_launcher_foreground)
         )
 
         binding.rvStudent.adapter = StudentAdapter(listStudent)

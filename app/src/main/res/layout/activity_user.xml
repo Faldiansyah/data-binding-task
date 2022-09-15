@@ -6,13 +6,13 @@
     <data>
         <variable
             name="userdata"
-            type="com.cowok.hijrah.chapter4topic2.data_binding_simple.DataUser" />
+            type="com.cowok.hijrah.chapter4topic2.databindingsimple.DataUser" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".data_binding_simple.UserActivity">
+        tools:context=".databindingsimple.UserActivity">
 
         <TextView
             android:id="@+id/textViewFirst"
